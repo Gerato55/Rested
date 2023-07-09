@@ -1,0 +1,1428 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body
+{
+    background-color: #151D30;
+}
+
+/* Header Section */
+
+div.header-content
+{
+    background-image: url('./img/background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 3rem;
+}
+.nav-menu
+{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding-top: 2.5rem;
+    gap: 5.7rem;
+    align-items: center;
+    color: white;
+}
+ul
+{
+    display: flex;
+    flex-direction: row;
+    gap: 2.3rem;
+}
+.nav-font-title
+{
+    font-size: 1.5rem;
+    font-weight: 900;
+  
+}
+.nav-menu-font
+{
+    font-size: 0.9rem;
+    list-style: none;
+    cursor: pointer;
+}
+#nav-menu-icon
+{
+    opacity: 0.1;
+    color: #151D30;
+}
+.nav-content
+{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 1.3rem;
+    padding-top: 1.5rem;
+}
+.nav-font-1
+{
+    font-size: 4rem;
+    font-weight:bolder;
+    text-transform: capitalize;
+    width: 50%;
+}
+.nav-font-2
+{
+    font-size: 1.5rem;
+    width: 55%;
+}
+.nav-button
+{
+    display: flex;
+    gap: 3.5rem;
+}
+.nav-btn-1
+{
+    padding: 1rem 2.1rem;
+    border-radius: 50px;
+    background-color: #4CA1F2;
+    border: 1px solid #4CA1F2;
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.nav-btn-2
+{
+    padding: 1rem 2.3rem;
+    border-radius: 50px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.nav-logo
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.2rem;
+    background-color: transparent;
+}
+#nav-logo
+{
+    width: 3rem;
+    height: 3rem;
+    background-color: transparent;
+}
+/* Start Media Screen */
+
+@media screen and (max-width: 1445px)
+{
+
+}
+@media screen and (max-width: 1030px)
+{
+    /*Laptop View*/
+    p.nav-font-1
+    {
+        font-size: 3rem;
+        width: 50%;
+    }
+
+    /* nav end of media query*/
+    /* start of us section of media query*/
+
+    p.us-font-1
+    {
+        width: 55%;
+    }
+    p.us-font-2
+    {
+        width: 75%;
+    }
+    p.us-font-3
+    {
+        width: 70%;
+    }
+    div.us-content
+    {
+        gap: 0.1rem;
+    }
+
+    /* us end of media query*/
+    /* start of destination section of media query*/
+
+    div.destination-box
+    {
+        justify-content: space-evenly;
+    }
+    p.desti-content-title
+    {
+        font-size: 1.6rem;
+    }
+
+    /* destination end of media query*/
+    /* start of holiday section of media query*/
+
+    div.holiday-box-move
+    {
+        gap: 2rem;
+    }
+    div.holiday-box
+    {
+        width: 18rem;
+        height: 15rem;
+    }
+    div.holiday-box-1
+    {
+        width: 18rem;
+        height: 15rem;
+    }
+    div.holiday-box-2
+    {
+        width: 18rem;
+        height: 15rem;
+    }
+    div.holiday-icon
+    {
+        padding-left: 7.5rem;
+    }
+    p.holiday-info-font
+    {
+        width: 43%;
+    }
+
+    /* holiday end of media query*/
+    /* start of about us section of media query*/
+
+    div.aboutUs-box
+    {
+        width: 30%;
+    }
+    p.aboutUs-font-1
+    {
+        width: 130%;
+    }
+}
+
+@media screen and (max-width: 770px)
+{
+    p.nav-font-title
+    {
+        display: none;
+    }
+    li.nav-menu-font
+    {
+        display: none;
+    }
+    i#nav-menu-icon
+    {
+        opacity: 1;
+        color: white;
+    }
+    img#nav-logo
+    {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+    p.nav-font-1
+    {
+        font-size: 3rem;
+        width: 60%;
+    }
+    p.nav-font-2
+    {
+        width: 60%;
+    }
+
+    /* nav end of media query*/
+    /* start of us section of media query*/
+
+    div.us-content
+    {
+        gap: 0.1rem;
+    }
+    h1.content-font
+    {
+        font-size: 2rem;
+    }
+    p.us-font-1
+    {
+        width: 90%;
+    }
+    p.us-font-2
+    {
+        width: 120%;
+    }
+    p.us-font-3
+    {
+        width: 95%;
+    }
+    h1.us-font-title
+    {
+        width: 120%;
+        font-size: 1.4rem;
+    }
+
+    /* Us end of media query*/
+    /* start of destination section of media query*/
+    div.destination-box
+    {
+        justify-content: space-evenly;
+    }
+    div.destination-box-1
+    {
+        justify-content: space-evenly;
+    }
+    div.destination-contentBox
+    {
+        padding-left: 0.1rem;
+        width: 40%;
+    }
+    p.desti-content-title
+    {
+        font-size: 1.7rem;
+        font-weight: 600;
+    }
+
+    /* destination end of media query*/
+    /* start of Holiday section of media query*/
+    
+    div.holiday-box-move
+    {
+        gap: 1.5rem;
+        flex-direction: column;
+    }
+    p.holiday-info-font
+    {
+        width: 50%;
+        text-align: justify;
+    }
+
+    /* Holiday end of media query*/
+    /* start of about Us section of media query*/
+
+    div.aboutUs-box
+    {
+        width: 50%;
+    }
+    div.aboutUs-content
+    {
+        gap: 1.5rem;
+    }
+}
+@media screen and (max-width: 430px)
+{
+    /*Medium Mobile View*/
+    p.nav-font-title
+    {
+        display: none;
+    }
+    img#nav-logo
+    {
+        width: 2rem;
+        height: 2rem;
+    }
+    .nav-menu-font
+    {
+        display: none;
+    }
+    #nav-menu-icon
+    {
+        opacity: 1;
+        color: white;
+        cursor: pointer;
+    }
+    p.nav-font-1
+    {
+        font-size: 2rem;
+        width: 80%;
+    }
+    p.nav-font-2
+    {
+        font-size: 1.2rem;
+        width: 75%;
+    }
+    div.nav-button
+    {
+        gap: 1rem;
+    }
+    button.nav-btn-1
+    {
+        font-size: 1.1rem;
+    }
+    button.nav-btn-2
+    {
+        font-size: 1.1rem;
+    }
+
+    /* nav end of media query*/
+    /* start of us section of media query*/
+
+    h1.content-font
+    {
+        font-size: 1.7rem;
+        text-align: center;
+    }
+    div.us-box
+    {
+        width: 100%;
+    }
+    h1.us-font-title
+    {
+        font-size: 1.5rem;
+    }
+    p.us-font-1
+    {
+        width: 65%;
+    }
+    p.us-font-2
+    {
+        width: 70%;
+    }
+    p.us-font-3
+    {
+        width: 70%;
+    }
+
+    /* end us section of media query*/
+    /* start of destination section of media query*/
+
+    div.destination-contentBox
+    {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        padding-left: 3.5rem;
+    }
+    p.desti-content-title
+    {
+        font-size: 1.8rem;
+        font-weight: 600;
+    }
+    p.desti-content-font-3
+    {
+        width: 70%;
+    }
+    p.desti-content-font-1
+    {
+        width: 70%;
+    }
+
+    /* end destination section of media query*/
+    /* start of holiday section of media query*/
+
+    p.holiday-info-font
+    {
+        font-size: 1rem;
+        width: 60%;
+        text-align: justify;
+    }
+    div.holiday-box
+    {
+        width: 20rem;
+        height: 14rem;
+    }
+    div.holiday-box-1
+    {
+        width: 20rem;
+        height: 14rem;
+    }
+    div.holiday-box-2
+    {
+        width: 20rem;
+        height: 14rem;
+    }
+    div.holiday-icon
+    {
+        padding-left: 8.5rem;
+    }
+
+    /* end holiday section of media query*/
+    /* start of about us section of media query*/
+
+    div.aboutUs-box
+    {
+        width: 100%;
+    }
+
+    /* end about us section of media query*/
+    /* start of footer section of media query*/
+
+    div.footer-content
+    {
+        grid-template-columns: repeat(2, 50%);
+    }
+
+    div.footer-box-1
+    {
+        order: 1;
+    }
+    i#foot-icon
+    {
+        display: none;
+    }
+    i#head-icon
+    {
+        color: white;
+        text-align: center;
+        opacity: 1;
+        background-color: #4CA1F2;
+    }
+}
+
+@media screen and (max-width: 380px)
+{
+    /*Medium Mobile View*/
+    p.nav-font-title
+    {
+        display: none;
+    }
+    img#nav-logo
+    {
+        width: 2rem;
+        height: 2rem;
+    }
+    .nav-menu-font
+    {
+        display: none;
+    }
+    #nav-menu-icon
+    {
+        opacity: 1;
+        color: white;
+        cursor: pointer;
+    }
+    p.nav-font-1
+    {
+        font-size: 2rem;
+        width: 100%;
+    }
+    p.nav-font-2
+    {
+        font-size: 1.1rem;
+        width: 85%;
+    }
+    div.nav-button
+    {
+        gap: 1rem;
+    }
+    button.nav-btn-1
+    {
+        font-size: 0.9rem;
+    }
+    button.nav-btn-2
+    {
+        font-size: 0.9rem;
+    }
+
+    /* nav end of media query*/
+    /* start of us section of media query*/
+
+    h1.content-font
+    {
+        font-size: 1.7rem;
+        text-align: center;
+    }
+    div.us-box
+    {
+        width: 100%;
+    }
+    h1.us-font-title
+    {
+        font-size: 1.5rem;
+
+    }
+
+    /* end us section of media query*/
+    /* start of destination section of media query*/
+
+    div.destination-contentBox
+    {
+        width: 100%;
+    }
+    p.desti-content-title
+    {
+        font-size: 1.8rem;
+        font-weight: 600;
+    }
+    p.desti-content-font-1
+    {
+        width: 65%;
+    }
+    p.desti-content-font-2
+    {
+        width: 65%;
+    }
+    p.desti-content-font-3
+    {
+        width: 65%;
+    }
+
+    /* end destination section of media query*/
+    /* start of holiday section of media query*/
+
+    p.holiday-info-font
+    {
+        font-size: 0.9rem;
+        width: 65%;
+        text-align: justify;
+    }
+    div.holiday-box
+    {
+        width: 17rem;
+        height: 12rem;
+    }
+    div.holiday-box-1
+    {
+        width: 17rem;
+        height: 12rem;
+    }
+    div.holiday-box-2
+    {
+        width: 17rem;
+        height: 12rem;
+    }
+    div.holiday-icon
+    {
+        padding-left: 7rem;
+    }
+
+    /* end holiday section of media query*/
+    /* start of about us section of media query*/
+
+    div.aboutUs-box
+    {
+        width: 100%;
+    }
+
+    /* end about us section of media query*/
+    /* start of footer section of media query*/
+
+    div.footer-content
+    {
+        grid-template-columns: repeat(2, 50%);
+    }
+
+    div.footer-box-1
+    {
+        order: 1;
+    }
+    i#foot-icon
+    {
+        display: none;
+    }
+    i#head-icon
+    {
+        color: white;
+        text-align: center;
+        opacity: 1;
+        background-color: #4CA1F2;
+    }
+}
+
+@media screen and (max-width: 325px)
+{
+    /*Small Mobile View*/
+    p.nav-font-title
+    {
+        display: none;
+    }
+    img#nav-logo
+    {
+        width: 2rem;
+        height: 2rem;
+    }
+    .nav-menu-font
+    {
+        display: none;
+    }
+    #nav-menu-icon
+    {
+        display: block;
+    }
+    #nav-menu-icon
+    {
+        opacity: 1;
+        color: white;
+        cursor: pointer;
+    }
+    p.nav-font-1
+    {
+        width: 90%;
+        font-size: 1.5rem;
+        font-weight: 900;
+    }
+    p.nav-font-2
+    {
+        width: 70%;
+        font-size: 1rem;
+    }
+    button.nav-btn-1
+    {
+        font-size: 0.7rem;
+        width: 100%;
+        cursor: pointer;
+    }
+    button.nav-btn-2
+    {
+        font-size: 0.7rem;
+        width: 120%;
+        cursor: pointer;
+    }
+    div.nav-button
+    {
+        display: flex;
+        gap: 0.5rem;
+    }
+
+
+    /* nav end of media query*/
+    /* start of us section of media query*/
+
+    div.us-box
+    {
+        width: 50%;
+    }
+    h1.content-font
+    {
+        font-size: 1.7rem;
+        font-weight: bold;
+        width: 70%;
+    }
+    div.line-break
+    {
+        width: 75%;
+    }
+    p.us-font-1
+    {
+        width: 120%;
+    }
+    p.us-font-2
+    {
+        width: 150%;
+    }
+    p.us-font-3
+    {
+        width: 130%;
+    }
+    h1.us-font-title
+    {
+        font-size: 1.3rem;
+        width: 150%;
+    }
+
+    /* end us section of media query*/
+    /* start of destination section of media query*/
+
+    div.destination-container
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    img#desti-image
+    {
+        width: 17rem;
+        height: 12rem;
+    }
+    div.destination-imgBox
+    {
+        width: 100%;
+    }
+    div.destination-contentBox
+    {
+        width: 100%;
+        padding-left: 2rem;
+    }
+    p.desti-content-title
+    {
+        padding-top: 1rem;
+        font-size: 1.7rem;
+        padding-left: 0.4rem;
+        font-weight: bold;
+    }
+    i#desti-con
+    {
+        display: none;
+    }
+    span.desti-con
+    {
+        font-size: 1rem;
+    }
+    p.desti-content-font-1
+    {
+        font-size: 0.9rem;
+        width: 100%;
+        padding-left: 0.4rem;
+    }
+    p.desti-content-font-2
+    {
+        font-size: 0.9rem;
+        width: 90%;
+        padding-left: 0.4rem;
+    }
+    p.desti-content-font-3
+    {
+        font-size: 0.9rem;
+        width: 90%;
+        padding-left: 0.4rem;
+    }
+    button.desti-btn
+    {
+        font-size: 1rem;
+        padding: 0.9rem 0.9rem;
+    }
+
+    /* end destination section of media query*/
+    /* start of holiday section of media query*/
+
+    div.holiday-box
+    {
+        width: 15rem;
+        height: 10rem;
+        padding-bottom: 3rem;
+    }
+    div.holiday-box-1
+    {
+        width: 15rem;
+        height: 10rem;
+        padding-bottom: 3rem;
+    }
+    div.holiday-box-2
+    {
+        width: 15rem;
+        height: 10rem;
+        padding-bottom: 3rem;
+    }
+    div.holiday-icon
+    {
+        padding-left: 8rem;
+        width: 50%;
+    }
+    i#holiday-icon
+    {
+        font-size: 2rem;
+        padding-right: 1rem;
+        padding-top: 2rem;
+    }
+    p.holiday-font-1
+    {
+        font-size: 0.9rem;
+    }
+    p.holiday-font-2
+    {
+        font-size: 0.9rem;
+    }
+    p.holiday-info-font
+    {
+        width: 75%;
+        font-size: 0.9rem;
+        text-align: justify;
+    }
+    button.holiday-btn-1
+    {
+        font-size: 0.9rem;
+        width: 120%;
+    }
+    button.holiday-btn-2
+    {
+        font-size: 0.9rem;
+        width: 100%;
+    }
+
+    /* end holiday section of media query*/
+    /* start of About Us section of media query*/
+    div.aboutUs-content
+    {
+        width: 100%;
+    }
+    div.aboutUs-profile-box-1
+    {
+        width: 100%;
+        height: 25vh;
+    }
+    div.aboutUs-box
+    {
+        width: 75%;
+    }
+    img#profile-img
+    {
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+    p.profile-font-1
+    {
+        font-size: 1.2rem;
+    }
+    p.aboutUs-font-1
+    {
+        width: 120%;
+        font-size: 0.8rem;
+    }
+
+    /* end about us section of media query*/
+    /* start footer of media query */
+
+    div.footer-content
+    {
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+    }
+    div.footer-box-1
+    {
+        order: 1;
+    }
+    i#foot-icon
+    {
+        display: none;
+    }
+    i#head-icon
+    {
+        color: white;
+        text-align: center;
+        opacity: 1;
+        background-color: #4CA1F2;
+    }
+    div.footer-footer-content
+    {
+        width:100%;
+        text-align: center;
+    }
+    p.footer-footer-info
+    {
+        font-size: 0.9rem;
+    }
+}
+/* end Media Screen */
+
+/* End of Header Section */
+/* Why Us Section */
+
+.us-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    gap: 5rem;
+}
+#us-img
+{
+    width: 7rem;
+    height: 7rem;
+}
+.us-content
+{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1rem;
+    color: white;
+    flex-wrap: wrap;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+.content-font
+{
+    font-size: 2.7rem;
+    text-transform: capitalize;
+    text-align: center;
+    font-weight: bolder;
+    color: white;
+}
+.us-box
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0.9rem 1.2rem;
+    width: 30%;
+    gap: 1rem;
+    text-align: center;
+}
+.us-font-title
+{
+    font-size: 1.7rem;
+}
+.us-font-1
+{
+    font-size: 0.9rem;
+    width: 55%;
+}
+.us-font-2
+{
+    font-size: 0.9rem;
+    width: 80%;
+}
+.us-font-3
+{
+    font-size: 0.9rem;
+    width: 60%;
+}
+.line-break
+{
+    border: 1px rgb(176, 176, 176) solid;
+    width: 50%;
+}
+
+
+/* End of Why Us Section */
+/* Destination Section */
+
+.destination-container
+{
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5rem;
+    padding-bottom: 5rem;
+    padding-top: 2.5rem;
+}
+.destination-content
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+.destination-box
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    width: 100%;
+}
+.destination-box-1
+{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    width: 100%;
+}
+#desti-image
+{
+    width: 20rem;
+    height: 15rem;
+    border-radius: 10px;
+    border: 1px solid #4CA1F2;
+    padding: 1rem;
+}
+.img-color-box
+{
+    padding: 0.7rem;
+    border-radius: 20px;
+}
+.destination-imgBox
+{
+    padding: 0.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    width: 30%;
+}
+.destination-contentBox
+{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.2rem;
+    padding-left: 2rem;
+}
+.desti-content-title
+{
+    font-size: 2rem;
+    font-weight: 900;
+}
+.desti-content-font-1
+{
+    font-size: 0.9rem;
+    width: 100%;
+}
+.desti-content-font-2
+{
+    font-size: 0.9rem;
+    width: 85%;
+}
+.desti-btn
+{
+    padding: 0.9rem 0.9rem;
+    color: white;
+    background-color: #4CA1F2;
+    border: 1px solid #4CA1F2;
+    border-radius: 50px;
+    font-size: 1.2rem;
+    width: 50%;
+    cursor: pointer;
+}
+#id-desti-con
+{
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+span
+{
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+
+
+/* End of Destination Section */
+/* Plan Holiday Section */
+
+.holiday-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5rem;
+    padding-bottom: 5rem;
+}
+.holiday-box-move
+{
+    padding: 0.9rem 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 3rem;
+    flex-wrap: wrap;
+
+}
+.holiday-box
+{
+    background-image: url('./img/holiday-1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 20rem;
+    height: 15rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    align-items: baseline;
+    flex-direction: column;
+
+}
+.holiday-box-1
+{
+    background-image: url('./img/holiday-2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 20rem;
+    height: 15rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    align-items: baseline;
+    flex-direction: column;
+
+}
+.holiday-box-2
+{
+    background-image: url('./img/holiday-3.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 20rem;
+    height: 15rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    align-items: baseline;
+    flex-direction: column;
+
+}
+.holiday-icon
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5rem;
+    padding-left: 8.5rem;
+    cursor: pointer;
+}
+.holiday-font-1
+{
+    font-size: 1.2rem;
+}
+.holiday-font-2
+{
+    font-size: 0.9rem;
+    line-height: 30px;
+}
+.holiday-info
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: white;
+    gap: 3.5rem;
+    padding-top: 3.5rem;
+    padding-bottom: 2rem;
+
+}
+.holiday-box-info
+{
+    padding-left: 2.5rem;
+}
+.holiday-info-1
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 1.5rem;
+}
+#holiday-icon
+{
+    font-size: 3.2rem;
+    background-color: transparent;
+    color: white;
+}
+#package-img
+{
+    position: absolute;
+    width: 22rem;
+    height: 30vh;
+    z-index: -1;
+}
+.holiday-info-font
+{
+    font-size: 1rem;
+    width: 45%;
+    line-height: 25px;
+}
+.holiday-button
+{
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+}
+.holiday-btn-1
+{
+    padding: 0.9rem 0.9rem;
+    color: white;
+    background-color: #4CA1F2;
+    border: 1px solid #4CA1F2;
+    border-radius: 50px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.holiday-btn-2
+{
+    padding: 0.9rem 0.9rem;
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 50px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+/* End of holiday Section */
+/* About Us Section */
+
+.aboutUs-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+
+}
+.aboutUs-content
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+.aboutUs-box
+{
+    color: white;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.aboutUs-profile-box-1
+{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #4CA1F2;
+    border-radius: 20px;
+    gap: 1.5rem;
+    padding: 1rem 1.5rem;
+}
+.aboutUs-profile-box
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1rem;
+}
+#profile-img
+{
+    width: 5rem;
+    height: 5rem;
+}
+.aboutUs-font-content
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    margin-right: 2rem;
+}
+.profile-font-1
+{
+    font-size: 1.3rem;
+    font-weight: bolder;
+    width: 120%;
+}
+.profile-font-2
+{
+    width: 100%;
+    font-size: 0.9rem;
+}
+.aboutUs-font-content
+{
+    width: 80%;
+    gap: 1rem;
+}
+.aboutUs-font-1
+{
+    font-size: 0.7rem;
+    width: 110%;
+}
+#star-img
+{
+    width: 6rem;
+    height: 1rem;
+}
+
+/* End of About Us Section */
+/* footer */
+
+.footer-container
+{
+    padding-bottom: 3rem;
+    width: 100%;
+    padding-top: 2rem;
+}
+.footer-content
+{
+    padding: 0.9rem 1.2rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 1.2rem;
+    row-gap: 1rem;
+}
+.footer-box
+{
+    color: white;
+    padding-top: 1rem;
+}
+.footer-box-1
+{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.footer-image-box
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.9rem;
+}
+#footer-logo
+{
+    height: 2rem;
+    width: 2rem;
+}
+.footer-title
+{
+    font-size: 1.3rem;
+}
+.footer-title-info
+{
+    font-size: 1.4rem;
+}
+.footer-info-1
+{
+    display: flex;
+    gap: 1rem;
+    padding-top: 1rem;
+}
+.footer-info
+{
+    display: flex;
+    padding-top: 2.5rem;
+    line-height: 30px;
+    justify-content: center;
+    flex-direction: column;
+}
+li
+{
+    font-size: 1rem;
+    list-style: none;
+}
+#head-icon
+{
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    border-radius: 100px;
+    color: black;
+    text-align: center;
+    opacity: 0.1;
+}
+#foot-icon
+{
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    border-radius: 100px;
+    background-color: #4CA1F2;
+    text-align: center;
+}
+.footer-footer-content
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3rem;
+    color: white;
+}
+.footer-footer-info
+{
+    font-size: 1.3rem;
+}
